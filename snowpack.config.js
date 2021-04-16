@@ -22,8 +22,8 @@ module.exports = {
   ],
   optimize: {
     /* Example: Bundle your final build: */
-    bundle: true,
-    minify: true,
+    // bundle: true,
+    // minify: true,
     target: 'es2018',
   },
   packageOptions: {

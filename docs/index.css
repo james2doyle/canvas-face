@@ -9,17 +9,14 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 .preview {
   position: relative;
 }
-
 #output {
   position: absolute;
   top: 0;
   left: 0;
 }
-
 video {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
