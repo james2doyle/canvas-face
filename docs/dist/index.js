@@ -1,7 +1,7 @@
-import * as blazeface from "../_snowpack/pkg/@tensorflow-models/blazeface.js";
-import * as tf from "../_snowpack/pkg/@tensorflow/tfjs-core.js";
-import * as tfjsWasm from "../_snowpack/pkg/@tensorflow/tfjs-backend-wasm.js";
-import Konva from "../_snowpack/pkg/konva.js";
+import * as blazeface from "pkg/@tensorflow-models/blazeface.js";
+import * as tf from "pkg/@tensorflow/tfjs-core.js";
+import * as tfjsWasm from "pkg/@tensorflow/tfjs-backend-wasm.js";
+import Konva from "pkg/konva.js";
 tfjsWasm.setWasmPaths(`https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-wasm@${tfjsWasm.version_wasm}/dist/`);
 let model, ctx, videoWidth, videoHeight;
 const video = document.getElementById("video");
