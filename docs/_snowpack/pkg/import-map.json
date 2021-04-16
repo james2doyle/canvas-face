@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "@tensorflow-models/blazeface": "./@tensorflow-models/blazeface.js",
+    "@tensorflow/tfjs-backend-wasm": "./@tensorflow/tfjs-backend-wasm.js",
+    "@tensorflow/tfjs-core": "./@tensorflow/tfjs-core.js",
+    "konva": "./konva.js"
+  }
+}

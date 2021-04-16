@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "snowpack dev",
-    "build": "snowpack build",
+    "build": "snowpack build --polyfill-node",
     "test": "echo \"This template does not include a test runner by default.\" && exit 1",
     "format": "prettier --write \"src/**/*.{ts,js}\"",
     "lint": "prettier --check \"src/**/*.{ts,js}\""
@@ -11,13 +11,16 @@
   },
   "devDependencies": {
     "@snowpack/plugin-typescript": "^1.2.0",
+    "@tensorflow-models/blazeface": "^0.0.7",
     "@tensorflow-models/body-pix": "^2.1.0",
     "@tensorflow-models/posenet": "^2.2.2",
     "@tensorflow/tfjs": "^3.4.0",
+    "@tensorflow/tfjs-backend-wasm": "^3.4.0",
     "@tensorflow/tfjs-backend-webgl": "^3.4.0",
     "@types/canvas-confetti": "^1.0.0",
     "@types/snowpack-env": "^2.3.2",
     "dat.gui": "^0.7.7",
+    "konva": "^7.2.5",
     "prettier": "^2.0.5",
     "snowpack": "^3.0.1",
     "stats.js": "^0.17.0",
