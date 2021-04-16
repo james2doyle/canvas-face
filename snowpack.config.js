@@ -2,7 +2,7 @@
 module.exports = {
   mount: {
     public: {
-      url: process.env.NODE_ENV === 'development' ? '/' : '/canvas-face/',
+      url: '/',
       static: true
     },
     src: { url: '/dist' },
