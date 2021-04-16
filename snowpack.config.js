@@ -33,6 +33,6 @@ module.exports = {
   buildOptions: {
     out: 'docs',
     baseUrl: process.env.NODE_ENV === 'development' ? '/' : '/canvas-face',
-    metaUrlPath: '',
+    metaUrlPath: './',
   },
 };
