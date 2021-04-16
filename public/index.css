@@ -1,14 +1,31 @@
-#img {
-  display: block;
-  margin: auto;
-  height: 128px;
-  width: 128px;
-  padding: 2rem;
+body {
+  margin: 2rem;
+  width: 100%;
 }
 
-#canvas {
-  display: block;
-  margin: 2rem auto;
-  width: 540px;
-  height: 540px;
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  max-width: 500px;
+  min-width: 300px;
+  padding: 2rem;
+  background-color: white;
+  border: 1px solid #aaa;
+  margin: 2rem;
+}
+
+.box.positive {
+  background-color: green;
+}
+
+.box.neutral {
+  background-color: gray;
+}
+
+.box.negative {
+  background-color: red;
 }
