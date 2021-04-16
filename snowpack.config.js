@@ -1,7 +1,10 @@
 /** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
   mount: {
-    public: { url: '/', static: true },
+    public: {
+      url: process.env.NODE_ENV === 'development' ? '/' : '/canvas-face/',
+      static: true
+    },
     src: { url: '/dist' },
   },
   plugins: [
